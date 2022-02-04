@@ -1,0 +1,7 @@
+let Age = prompt('Сколько вам лет?');
+let gender = confirm('Ты мальчик?');
+if (gender == true)
+alert('Эй, парень, тебе ' + Age + '!')
+else {
+alert('Эй, девушка, тебе ' + Age + '!')
+}
